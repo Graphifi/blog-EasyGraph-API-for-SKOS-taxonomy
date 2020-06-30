@@ -1,0 +1,198 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix gs:    <https://grafsync.graphifi.com/schema/gs/> .
+
+<http://example.com/language/be292cf5-8684-4c38-b6af-89a5c7062402>
+        a                 skos:Concept ;
+        <http://purl.org/dc/terms/created>
+                "2020-06-29T21:33:42.832Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:broader      <http://example.com/language/6c27beab-0525-421f-91b8-d7e844b6b51a> ;
+        skos:inScheme     <http://example.com/language> ;
+        skosxl:prefLabel  <http://example.com/language/d394598e-627b-4061-8ef3-1ad363fe80c3> ;
+        gs:revisionNo     2 .
+
+<http://example.com/language>
+        a                   skos:ConceptScheme ;
+        <http://purl.org/dc/terms/created>
+                "2020-06-29T21:31:35.992Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://purl.org/dc/terms/title>
+                "Language"@en ;
+        skos:hasTopConcept  <http://example.com/language/39c1af26-b7f4-42b5-98ca-f9b33426eb00> , <http://example.com/language/d525b395-ebb0-4ac0-ba01-812e28923b75> , <http://example.com/language/6c27beab-0525-421f-91b8-d7e844b6b51a> ;
+        gs:revisionNo       4 ;
+        gs:useSlashIRI      true ;
+        gs:useUuidIRI       true .
+
+<http://example.com/language/43e0eb37-5662-42ae-a0eb-2158d7795d6e>
+        a                 skos:Concept ;
+        <http://purl.org/dc/terms/created>
+                "2020-06-29T21:33:02.964Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:broader      <http://example.com/language/6c27beab-0525-421f-91b8-d7e844b6b51a> ;
+        skos:inScheme     <http://example.com/language> ;
+        skosxl:prefLabel  <http://example.com/language/c913e7c4-8006-41d6-8bfc-28e2a02fcc57> ;
+        gs:revisionNo     2 .
+
+<http://example.com/language/7ecddda3-2643-451d-85b5-df2fc86252b4>
+        a                   skosxl:Label ;
+        <http://purl.org/dc/terms/created>
+                "2020-06-29T21:45:37.178Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:inScheme       <http://example.com/language> ;
+        skosxl:literalForm  "ਅੰਗਰੇਜ਼ੀ"@pa ;
+        gs:revisionNo       1 ;
+        <https://graphifi.com/schema/xkos/isXlPrefLabelOf>
+                <http://example.com/language/6c27beab-0525-421f-91b8-d7e844b6b51a> .
+
+<http://example.com/language/d525b395-ebb0-4ac0-ba01-812e28923b75>
+        a                  skos:Concept ;
+        <http://purl.org/dc/terms/created>
+                "2020-06-29T21:34:46.938Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:inScheme      <http://example.com/language> ;
+        skos:narrower      <http://example.com/language/8d4a15f0-13ce-43c3-84da-7f10f29fb8a2> , <http://example.com/language/01a18c79-2be0-462a-9160-e1b3194f78aa> ;
+        skos:topConceptOf  <http://example.com/language> ;
+        skosxl:prefLabel   <http://example.com/language/ba977ca3-049b-4fae-a9d0-bf56a18a2f86> ;
+        gs:revisionNo      4 .
+
+<http://example.com/language/8a6cb605-2ba7-4beb-af1d-49597b555f11>
+        a                   skosxl:Label ;
+        <http://purl.org/dc/terms/created>
+                "2020-06-29T21:36:15.891Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:inScheme       <http://example.com/language> ;
+        skosxl:literalForm  "Spanish"@en ;
+        gs:revisionNo       1 ;
+        <https://graphifi.com/schema/xkos/isXlPrefLabelOf>
+                <http://example.com/language/39c1af26-b7f4-42b5-98ca-f9b33426eb00> .
+
+<http://example.com/language/d4d7cd42-8f9a-4bf1-be86-0e3049ff2af5>
+        a                   skosxl:Label ;
+        <http://purl.org/dc/terms/created>
+                "2020-06-29T21:32:16.591Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:inScheme       <http://example.com/language> ;
+        skosxl:literalForm  "English"@en ;
+        gs:revisionNo       1 ;
+        <https://graphifi.com/schema/xkos/isXlPrefLabelOf>
+                <http://example.com/language/6c27beab-0525-421f-91b8-d7e844b6b51a> .
+
+<http://example.com/language/0af03c73-9f40-40b3-831f-ad24139c9cec>
+        a                 skos:Concept ;
+        <http://purl.org/dc/terms/created>
+                "2020-06-29T21:33:58.871Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:broader      <http://example.com/language/6c27beab-0525-421f-91b8-d7e844b6b51a> ;
+        skos:inScheme     <http://example.com/language> ;
+        skosxl:prefLabel  <http://example.com/language/6128f272-e344-4564-aef1-84a1fcb4cba2> ;
+        gs:revisionNo     2 .
+
+<http://example.com/language/8d4a15f0-13ce-43c3-84da-7f10f29fb8a2>
+        a                 skos:Concept ;
+        <http://purl.org/dc/terms/created>
+                "2020-06-29T21:35:24.357Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:broader      <http://example.com/language/d525b395-ebb0-4ac0-ba01-812e28923b75> ;
+        skos:inScheme     <http://example.com/language> ;
+        skosxl:prefLabel  <http://example.com/language/3e70e550-6d3a-4639-91e5-995e925d9f61> ;
+        gs:revisionNo     2 .
+
+<http://example.com/language/516cf097-a852-4c87-b20b-a178cc0fd855>
+        a                   skosxl:Label ;
+        <http://purl.org/dc/terms/created>
+                "2020-06-29T21:35:11.093Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:inScheme       <http://example.com/language> ;
+        skosxl:literalForm  "French (Switzerland)"@en ;
+        gs:revisionNo       1 ;
+        <https://graphifi.com/schema/xkos/isXlPrefLabelOf>
+                <http://example.com/language/01a18c79-2be0-462a-9160-e1b3194f78aa> .
+
+<http://example.com/language/39c1af26-b7f4-42b5-98ca-f9b33426eb00>
+        a                  skos:Concept ;
+        <http://purl.org/dc/terms/created>
+                "2020-06-29T21:36:15.496Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:inScheme      <http://example.com/language> ;
+        skos:topConceptOf  <http://example.com/language> ;
+        skosxl:prefLabel   <http://example.com/language/8a6cb605-2ba7-4beb-af1d-49597b555f11> ;
+        gs:revisionNo      2 .
+
+<http://example.com/language/3e70e550-6d3a-4639-91e5-995e925d9f61>
+        a                   skosxl:Label ;
+        <http://purl.org/dc/terms/created>
+                "2020-06-29T21:35:24.642Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:inScheme       <http://example.com/language> ;
+        skosxl:literalForm  "French (Canada)"@en ;
+        gs:revisionNo       1 ;
+        <https://graphifi.com/schema/xkos/isXlPrefLabelOf>
+                <http://example.com/language/8d4a15f0-13ce-43c3-84da-7f10f29fb8a2> .
+
+<http://example.com/language/6128f272-e344-4564-aef1-84a1fcb4cba2>
+        a                   skosxl:Label ;
+        <http://purl.org/dc/terms/created>
+                "2020-06-29T21:33:59.204Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:inScheme       <http://example.com/language> ;
+        skosxl:literalForm  "English (United States)"@en ;
+        gs:revisionNo       1 ;
+        <https://graphifi.com/schema/xkos/isXlPrefLabelOf>
+                <http://example.com/language/0af03c73-9f40-40b3-831f-ad24139c9cec> .
+
+<http://example.com/language/c913e7c4-8006-41d6-8bfc-28e2a02fcc57>
+        a                   skosxl:Label ;
+        <http://purl.org/dc/terms/created>
+                "2020-06-29T21:33:03.499Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:inScheme       <http://example.com/language> ;
+        skosxl:literalForm  "English (Australia)"@en ;
+        gs:revisionNo       1 ;
+        <https://graphifi.com/schema/xkos/isXlPrefLabelOf>
+                <http://example.com/language/43e0eb37-5662-42ae-a0eb-2158d7795d6e> .
+
+<http://example.com/language/6c27beab-0525-421f-91b8-d7e844b6b51a>
+        a                  skos:Concept ;
+        <http://purl.org/dc/terms/created>
+                "2020-06-29T21:32:16.242Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:inScheme      <http://example.com/language> ;
+        skos:narrower      <http://example.com/language/43e0eb37-5662-42ae-a0eb-2158d7795d6e> , <http://example.com/language/9886dc62-c6d8-4aaa-91e3-e108ca9899d6> , <http://example.com/language/be292cf5-8684-4c38-b6af-89a5c7062402> , <http://example.com/language/0af03c73-9f40-40b3-831f-ad24139c9cec> ;
+        skos:topConceptOf  <http://example.com/language> ;
+        skosxl:prefLabel   <http://example.com/language/d4d7cd42-8f9a-4bf1-be86-0e3049ff2af5> , <http://example.com/language/7ecddda3-2643-451d-85b5-df2fc86252b4> ;
+        gs:revisionNo      7 .
+
+<http://example.com/language/f46ca61d-ed6e-4dc0-af8d-672ed8670993>
+        a                   skosxl:Label ;
+        <http://purl.org/dc/terms/created>
+                "2020-06-29T21:33:25.244Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:inScheme       <http://example.com/language> ;
+        skosxl:literalForm  "English (Canada)"@en ;
+        gs:revisionNo       1 ;
+        <https://graphifi.com/schema/xkos/isXlPrefLabelOf>
+                <http://example.com/language/9886dc62-c6d8-4aaa-91e3-e108ca9899d6> .
+
+<http://example.com/language/9886dc62-c6d8-4aaa-91e3-e108ca9899d6>
+        a                 skos:Concept ;
+        <http://purl.org/dc/terms/created>
+                "2020-06-29T21:33:24.885Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:broader      <http://example.com/language/6c27beab-0525-421f-91b8-d7e844b6b51a> ;
+        skos:inScheme     <http://example.com/language> ;
+        skosxl:prefLabel  <http://example.com/language/f46ca61d-ed6e-4dc0-af8d-672ed8670993> ;
+        gs:revisionNo     2 .
+
+<http://example.com/language/ba977ca3-049b-4fae-a9d0-bf56a18a2f86>
+        a                   skosxl:Label ;
+        <http://purl.org/dc/terms/created>
+                "2020-06-29T21:34:47.286Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:inScheme       <http://example.com/language> ;
+        skosxl:literalForm  "French"@en ;
+        gs:revisionNo       1 ;
+        <https://graphifi.com/schema/xkos/isXlPrefLabelOf>
+                <http://example.com/language/d525b395-ebb0-4ac0-ba01-812e28923b75> .
+
+<http://example.com/language/d394598e-627b-4061-8ef3-1ad363fe80c3>
+        a                   skosxl:Label ;
+        <http://purl.org/dc/terms/created>
+                "2020-06-29T21:33:43.246Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:inScheme       <http://example.com/language> ;
+        skosxl:literalForm  "English (United Kingdom)"@en ;
+        gs:revisionNo       1 ;
+        <https://graphifi.com/schema/xkos/isXlPrefLabelOf>
+                <http://example.com/language/be292cf5-8684-4c38-b6af-89a5c7062402> .
+
+<http://example.com/language/01a18c79-2be0-462a-9160-e1b3194f78aa>
+        a                 skos:Concept ;
+        <http://purl.org/dc/terms/created>
+                "2020-06-29T21:35:10.662Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        skos:broader      <http://example.com/language/d525b395-ebb0-4ac0-ba01-812e28923b75> ;
+        skos:inScheme     <http://example.com/language> ;
+        skosxl:prefLabel  <http://example.com/language/516cf097-a852-4c87-b20b-a178cc0fd855> ;
+        gs:revisionNo     2 .
